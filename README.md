@@ -30,8 +30,8 @@ For questions or collaboration inquiries, please contact: maryannbenny.fernandes
 
 **Figure 5-7 & Table 1-3:** Figure 5 uses real-time PROMPT telescope observations of 2024 ON and 4953, aligned with corresponding Horizons predictions as seen in Table 2 and 3. In Figure 6, only the real-time PROMPT data for 2024 ON (~4 hr arc) with scripts implementing Eq. 1 from the manuscript to compute distance and error is used. Similarily, we do the same for asteroid 49533/1990 MU in Figure 7. The fit results from Eq.1 and the distance measurments from Figure 6 and 7 is mentioned in Table 1. 
 
-**Figure 8:** Combined synthetic + real-time comparisons for the sample of 20 asteroids. Code for multi-panel visualization included.
+**Figure 8:** Comparism of distances measurements of asteroid discussed in figures 3 and 4 with distances computed from the Find_Orb software. 
 
-**Figure 9 & Table 4:** Find_Orb-based uncertainty analysis, including input observational files, fitting scripts, and visualization code.
+**Figure 9 & Table 4:** Find_Orb-based uncertainty analysis for two observational cases: Observations with diversity and observations without diversity. The dataset includes input observational files, scripts, and visualizations from Find_Orb.
 
-**Figure 10 & Table 5:** Fractional distance uncertainty calculations and plotting scripts for multi-asteroid comparisons.
+**Figure 10 & Table 5:** Fractional distance uncertainty and script for multi-asteroid comparisons.
