@@ -8,30 +8,30 @@ The repository is organized by figure number, and each folder contains:
 3) any supplementary files needed for analysis.
 
 Data Sources: 
-All synthetic data were obtained from the NASA JPL Horizons system: https://ssd.jpl.nasa.gov/horizons/
+All synthetic data were obtained from the NASA JPL Horizons system (hereafter _Horizons_): https://ssd.jpl.nasa.gov/horizons/
 Real-time data were taken with the PROMPT telescopes in Chile during the observations described in the manuscript.
 
 Licensing: This repository is released under the MIT License, allowing reuse with attribution.
 
-A tagged version of this repository corresponding to the final, post–peer-review version of the manuscript is deposited in Zenodo to ensure a long-term archive and DOI for citation. The DOI is included in the final paper using the AASTeX \dataset[]{}{} macro.
+A tagged version of this repository corresponding to the final, post–peer-review version of the manuscript is archived in Zenodo, and includes a DOI for citation, which is also included in the manuscript.
 
 For questions or collaboration inquiries, please contact: maryannbenny.fernandes@duke.edu
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 **#Repository Structure**
 
-**Figure 1:** Synthetic Horizons data for asteroid 2024 ON (Sept 5–6, 2024, 1-hr cadence, 48 observations, added randomly generated 20 mas noise) and code to reproduce the figure.
+**Figure 1:** Synthetic Horizons data for asteroid 2024 ON (Sept 5–6, 2024, 1 hour cadence, 48 observations, addition of randomly generated 20 mas noise) and code to reproduce the figure.
 
-**Figure 2:** Synthetic Horizons data for asteroid 4953 (Oct 30–31, 2024, 1-hr cadence, 48 observations, added randomly generated 20 mas noise) and corresponding code.
+**Figure 2:** Synthetic Horizons data for asteroid 4953/1990 MU (Oct 30–31, 2024, 1 hour cadence, 48 observations, addition of randomly generated 20 mas noise) and corresponding code.
 
-**Figure 3:** Synthetic Horizons data for 20 asteroids over a short observational arc (Sept 5–6, 2024, added randomly generated 20 mas noise) with code for distance-measurement performance plots.
+**Figure 3:** Synthetic Horizons data for 20 asteroids over a short observational arc of ~4 hours (Sept 5–6, 2024, added randomly generated 20 mas noise) with code for distance-measurements.
 
-**Figure 4:** Synthetic Horizons data for the same 20 asteroids over a multi-night arc (Sept 5–9, 2024, added randomly generated 20 mas noise). Includes code for reproducing distance-comparison plots.
+**Figure 4:** Synthetic Horizons data for the same 20 asteroids over a multi-night arc, five days, three observations per night (Sept 5–9, 2024, added randomly generated 20 mas noise) with code for distance-measurements.
 
-**Figure 5-7 & Table 1-3:** Figure 5 uses real-time PROMPT telescope observations of 2024 ON and 4953, aligned with corresponding Horizons predictions as seen in Table 2 and 3. In Figure 6, only the real-time PROMPT data for 2024 ON (~4 hr arc) with scripts implementing Eq. 1 from the manuscript to compute distance and error is used. Similarily, we do the same for asteroid 49533/1990 MU in Figure 7. The fit results from Eq.1 and the distance measurments from Figure 6 and 7 is mentioned in Table 1. 
+**Figure 5-7 & Table 1-3:** Figure 5 compares real-time PROMPT observations of 2024 ON and 4953 with corresponding Horizons predictions as seen in Table 2 and 3. Figure 6 uses real-time PROMPT data for 2024 ON (~4 hr arc) to compute distance using Eq. 1 in the manuscript; results appear in Table 1. Figure 7 applies the same analysis to 4953/1990 MU (~7 hr arc), with results also shown in Table 1.
 
-**Figure 8:** Comparism of distances measurements of asteroid discussed in figures 3 and 4 with distances computed from the Find_Orb software. 
+**Figure 8:** Comparism of distances measurements from figures 3 and 4 with Find_Orb for both single and multiple night observations.
 
-**Figure 9 & Table 4:** Find_Orb-based uncertainty analysis for two observational cases: Observations with diversity and observations without diversity. The dataset includes input observational files, scripts, and visualizations from Find_Orb.
+**Figure 9 & Table 4:** Find_Orb-based orbital uncertainty comparing two observational cases: Observations with diversity and observations without diversity. The dataset includes input observational files into Find_Orb (file named with .obs extension), code, and visualizations from Find_Orb.
 
-**Figure 10 & Table 5:** Fractional distance uncertainty and script for multi-asteroid comparisons.
+**Figure 10 & Table 5:** Fractional distance uncertainty and script for multi-survey comparisons.
