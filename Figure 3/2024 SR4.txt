@@ -1,0 +1,166 @@
+*******************************************************************************
+JPL/HORIZONS                     (2024 SR4)                2025-Sep-17 15:07:29
+Rec #:50594031 (+COV) Soln.date: 2024-Oct-01_07:02:10        # obs: 18 (6 days)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2460582.5 ! 2024-Sep-29.00 (TDB)         Residual RMS= .22876
+   EC= .5260317724617266   QR= .9012585173766892   TP= 2460622.2212098846
+   OM= 184.993106893118    W=  231.8319317604775   IN= 9.489475500200051
+   A= 1.901516736802599    MA= 345.0694325514802   ADIST= 2.901774956228508
+   PER= 2.62216            N= .375884005           ANGMOM= .02017381
+   DAN= 2.03777            DDN= 1.03794            L= 56.4408693
+   B= -7.4475316           MOID= .0178985          TP= 2024-Nov-07.7212098846
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= n.a.                RAD= n.a.               ROTPER= n.a.
+   H= 26.7                 G= .150                 B-V= n.a.
+                           ALBEDO= n.a.            STYP= n.a.
+
+ASTEROID comments: 
+1: soln ref.= JPL#2, OCC=7
+2: source=ORB
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Wed Sep 17 15:07:29 2025 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: (2024 SR4)                      {source: JPL#2}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: Cerro Tololo Observatory, La Serena
+*******************************************************************************
+Start time      : A.D. 2024-Sep-05 23:43:00.0000 UT      
+Stop  time      : A.D. 2024-Sep-06 03:28:00.0000 UT      
+Step-size       : 45 minutes
+*******************************************************************************
+Target pole/equ : undefined
+Target radii    : undefined                                                    
+Center geodetic : 289.1941, -30.1691165, 2.38888  {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 289.1941,5520.92438,-3187.79599 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}       
+Target primary  : Sun
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE441}
+Rel. light bend : Sun                             {source: DE441}
+Rel. lght bnd GM: 1.3271E+11 km^3/s^2                                          
+Small-body perts: Yes                             {source: SB441-N16}
+Atmos refraction: NO (AIRLESS)
+RA format       : DEG
+Time format     : JD  
+Calendar mode   : Mixed Julian/Gregorian
+EOP file        : eop.250917.p251213                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2025-SEP-17. PREDICTS-> 2025-DEC-12
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+Table format    : Comma Separated Values (spreadsheet)
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2460582.5 ! 2024-Sep-29.00 (TDB)         Residual RMS= .22876        
+   EC= .5260317724617266   QR= .9012585173766892   TP= 2460622.2212098846      
+   OM= 184.993106893118    W=  231.8319317604775   IN= 9.489475500200051       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 1.030570825575388E+00  Y= 9.097057635668843E-02  Z= 3.789777974448844E-02
+  VX=-7.832886029974038E-03 VY= 1.830174638222473E-02 VZ= 4.442266671304098E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= n.a.               ROTPER= n.a.                
+   H= 26.7                 G= .150                 B-V= n.a.                   
+                           ALBEDO= n.a.            STYP= n.a.                  
+***********************************************************************************
+Date_________JDUT, , , R.A.___(ICRF), DEC____(ICRF),             delta,     deldot,
+***********************************************************************************
+$$SOE
+2460559.488194444,A,m, 339.667963870,  14.470773590,  0.19551159391391,-13.7629840,
+2460559.519444444, ,m, 339.668080659,  14.469232797,  0.19526350502600,-13.7251801,
+2460559.550694444, , , 339.667833340,  14.467620943,  0.19501621621871,-13.6745874,
+2460559.581944444, , , 339.667272328,  14.465921255,  0.19476994278636,-13.6130043,
+2460559.613194444, , , 339.666460547,  14.464119669,  0.19452486360534,-13.5426546,
+2460559.644444444, , , 339.665471024,  14.462205378,  0.19428111420993,-13.4661018,
+$$EOE
+***********************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+SOLAR PRESENCE (OBSERVING SITE)
+  Time tag is followed by a blank, then a solar-presence symbol:
+
+       '*'  Daylight (refracted solar upper-limb on or above apparent horizon)
+       'C'  Civil twilight/dawn
+       'N'  Nautical twilight/dawn
+       'A'  Astronomical twilight/dawn
+       ' '  Night OR geocentric ephemeris
+
+LUNAR PRESENCE (OBSERVING SITE)
+  The solar-presence symbol is immediately followed by a lunar-presence symbol:
+
+       'm'  Refracted upper-limb of Moon on or above apparent horizon
+       ' '  Refracted upper-limb of Moon below apparent horizon OR geocentric
+            ephemeris
+ 
+ 'R.A.___(ICRF), DEC____(ICRF),' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in decimal degrees,  ddd.fffff{ffff}
+         DEC in decimal degrees,  sdd.fffff{ffff}
+ 
+ 'delta,     deldot,' =
+   Apparent range ("delta", light-time aberrated) and range-rate ("delta-dot")
+of the target center relative to the observer. A positive "deldot" means the
+target center is moving away from the observer, negative indicates movement
+toward the observer.  Units: AU and KM/S
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+
+***********************************************************************************
