@@ -19,19 +19,20 @@ For questions or collaboration inquiries, please contact: maryannbenny.fernandes
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 **#Repository Structure**
+To reproduce any plot, you can download the contents in the following folders, and update the file paths where the files are stored. Once this is done, you should be able to generate all the plots as seen in the paper. 
 
-**Figure 1:** Synthetic Horizons data for asteroid 2024 ON (Sept 5–6, 2024, 1 hour cadence, 48 observations, addition of randomly generated 20 mas noise) and code to reproduce the figure.
+**Figure 1:** Synthetic Horizons data for asteroid 2024 ON (Sept 5–6, 2024, 1 hour cadence, 48 observations, addition of randomly generated 20 mas noise) and code to reproduce the figure. 
 
 **Figure 2:** Synthetic Horizons data for asteroid 4953/1990 MU (Oct 30–31, 2024, 1 hour cadence, 48 observations, addition of randomly generated 20 mas noise) and corresponding code.
 
 **Figure 3:** Synthetic Horizons data for 20 asteroids over a short observational arc of ~4 hours (Sept 5–6, 2024, added randomly generated 20 mas noise) with code for distance-measurements.
 
-**Figure 4:** Synthetic Horizons data for the same 20 asteroids over a multi-night arc, five days, three observations per night (Sept 5–9, 2024, added randomly generated 20 mas noise) with code for distance-measurements.
+**Figure 4:** Synthetic Horizons data for the same 20 asteroids over a multi-night arc, five days, three observations per night (Sept 5–9, 2024, added randomly generated 20 mas noise) with code for distance measurements.
 
-**Figure 5-7 & Table 1-3:** Figure 5 compares real-time PROMPT observations of 2024 ON and 4953 with corresponding Horizons predictions as seen in Table 2 and 3. Figure 6 uses real-time PROMPT data for 2024 ON (~4 hr arc) to compute distance using Eq. 1 in the manuscript; results appear in Table 1. Figure 7 applies the same analysis to 4953/1990 MU (~7 hr arc), with results also shown in Table 1.
+**Figure 5-7 & Table 1-3:** Figure 5 compares real-time PROMPT observations of 2024 ON and 4953/1990 MU with corresponding Horizons predictions; associated results appear in Tables 2 and 3. Figure 6 uses real-time PROMPT observations of 2024 ON (~4-hour arc) as seen in Table 2 to compute distance using Eq. 1 in the manuscript; results appear in Table 1. Figure 7 applies the same analysis to 4953/1990 MU (~7-hour arc) as seen in Table 3, with results also included in Table 1.
 
-**Figure 8:** Comparism of distances measurements from figures 3 and 4 with Find_Orb for both single and multiple night observations.
+**Figure 8:** Comparison of distance measurements from figures 3 and 4 with Find_Orb for both single and multiple night observations.
 
 **Figure 9 & Table 4:** Find_Orb-based orbital uncertainty comparing two observational cases: Observations with diversity and observations without diversity. The dataset includes input observational files into Find_Orb (file named with .obs extension), code, and visualizations from Find_Orb.
 
-**Figure 10 & Table 5:** Fractional distance uncertainty and script for multi-survey comparisons.
+**Figure 10 & Table 5:** Fractional distance uncertainty and script for multi-survey comparison.
