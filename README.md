@@ -1,6 +1,4 @@
-# Maryann-et-al.-2025
-
-**Measuring the Distances to Asteroids from One Observatory in One Night with Upcoming All-Sky Telescopes**
+** #Measuring the Distances to Asteroids from One Observatory in One Night with Upcoming All-Sky Telescopes (Maryann et al. 2025)**
 
 This repository contains all code and datasets used to generate the figures and tables in the above paper. In total, the paper includes 10 figures and 5 tables.
 
@@ -9,7 +7,7 @@ The repository is organized by figure number, and each folder contains:
 2) the Python code required to reproduce each plot, and
 3) any supplementary files needed for analysis.
 
-_To reproduce any image or table in the paper, please download all the files in the folders, and edit the path where the input files are located on your device/cloud. When this is done, and you hit run, the entire code should complete the final image._
+(_To reproduce any image or table in the paper, please download all the files in the folders, and edit the path where the input files are located on your device/cloud. When this is done, and you hit run, the entire code should complete the final image._)
    
 Data Sources: 
 All synthetic data were obtained from the NASA JPL Horizons system (hereafter _Horizons_): https://ssd.jpl.nasa.gov/horizons/
