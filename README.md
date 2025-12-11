@@ -1,4 +1,4 @@
-**#Measuring the Distances to Asteroids from One Observatory in One Night with Upcoming All-Sky Telescopes (Maryann et al. 2025)**
+#Measuring the Distances to Asteroids from One Observatory in One Night with Upcoming All-Sky Telescopes (Maryann et al. 2025)
 
 This repository contains all code and datasets used to generate the figures and tables in the above paper. In total, the paper includes 10 figures and 5 tables.
 
