@@ -34,7 +34,7 @@ Synthetic _Horizons_ data for 20 asteroids over a short observational arc of ~4 
 **Figure 4:** 
 (Similar to Figure 3) Synthetic _Horizons_ data for the same 20 asteroids over a multi-night arc comprising five days (Sept 5–9, 2024, three observations per night, and 20mas Gaussian noise added to make the RA and DEC values more realistic) with code for distance measurements.
 
-**Figure 5-7 & Table 1-3:** 
+**Figure 5-7, Table 1-3:** 
 Figure 5 compares real-time PROMPT telescope observations of asteroids 2024 ON and 4953/1990 MU with corresponding _Horizons_ ephemeris data as seen in Tables 2 and 3. 
 Figure 6 uses real-time PROMPT observations (time and RA) of 2024 ON (~4-hour arc) as seen in Table 2. The results of the data measurement for 2024 ON is in Table 1 (column 2). 
 (Similar to Figure 6) Figure 7 uses real-time PROMPT observations (time and RA) of 4953/1990 MU (~7-hour arc) as seen in Table 3. The results of the data measurement for 4953/1990 MU is in Table 1 (column 3). 
@@ -42,8 +42,8 @@ Figure 6 uses real-time PROMPT observations (time and RA) of 2024 ON (~4-hour ar
 **Figure 8:** 
 Comparison of the topocentric parallax distance measurement for multiple asteroids as seen in figures 3 and 4, for single and multiple night observations against _Find_Orb_ (orbit determination software), along with the addition of 20mas Gaussian noise to make the RA and DEC values more realistic
 
-**Figure 9 & Table 4:** 
+**Figure 9, Table 4:** 
 Using _Find_Orb_, among the 20 asteroids discussed in Section 2.3, the orbital determination of the asteroids is computed for two observational cases: Observations with diversity and observations without diversity. The ratio of the uncertainties in the semi-major axis for both cases is done for nine asteroids against their distance dependence from Earth. The dataset in the folder to reproduce this image and table includes the astrometry inputted into _Find_Orb_ (the '(asteroid name).obs' file), code, and a pdf containing screenshots of the orbital data from _Find_Orb_ for each of the nine asteroids for both the cases.
 
-**Figure 10 & Table 5:** 
+**Figure 10, Table 5:** 
 Fractional distance uncertainty and script for multi-survey comparison.
