@@ -43,10 +43,11 @@ Figure 6 uses real-time PROMPT observations (time and RA) of 2024 ON (~4-hour ar
 Comparison of topocentric parallax distance measurements for multiple asteroids, corresponding to the single-night and multi-night cases shown in Figures 3 and 4, against distances recovered using _Find_Orb_ (orbit determination software). Gaussian noise with a standard deviation of 20mas is added to the RA and DEC measurements to reflect more realistic astrometric uncertainties.
 
 #Short videos demonstrating the extraction of orbital solutions from _Find_Orb_ using MPC-compliant .obs files generated in this work are provided below. 
---> Single-night observations: https://youtu.be/2xSQt7K2Ris
+
+(a) Single-night observations: https://youtu.be/2xSQt7K2Ris
 For each of the 12 asteroids, the corresponding .obs file is loaded into Find_Orb. Because the observations span a short arc, perturbations from the planets, Moon, and Sun are disabled using the “All Perturbations” option, as their effects are negligible over this timescale. Initial orbits are computed using the 'Gauss' orbit determination method option, followed by 'Full', a least-squares fitting option to estimate uncertainties.
 
---> Multi-night observations: https://youtu.be/DMwCI7UAnX8
+(b) Multi-night observations: https://youtu.be/DMwCI7UAnX8
 For each of the 10 asteroids observed over a five-day arc with three observations per night, perturbations from the Sun and Moon are included in the dynamical model. These perturbations are necessary for accurately modeling asteroids with heliocentric distances less than or equal to 0.2 au. _Find_Orb_ automatically computes these perturbations. 
 
 **Figure 9, Table 4:** 
