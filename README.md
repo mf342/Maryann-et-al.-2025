@@ -40,7 +40,14 @@ Figure 6 uses real-time PROMPT observations (time and RA) of 2024 ON (~4-hour ar
 (Similar to Figure 6) Figure 7 uses real-time PROMPT observations (time and RA) of 4953/1990 MU (~7-hour arc) as seen in Table 3. The results of the data measurement for 4953/1990 MU is in Table 1 (column 3). 
 
 **Figure 8:** 
-Comparison of the topocentric parallax distance measurement for multiple asteroids as seen in figures 3 and 4, for single and multiple night observations against _Find_Orb_ (orbit determination software), along with the addition of 20mas Gaussian noise to make the RA and DEC values more realistic
+Comparison of topocentric parallax distance measurements for multiple asteroids, corresponding to the single-night and multi-night cases shown in Figures 3 and 4, against distances recovered using _Find_Orb_ (orbit determination software). Gaussian noise with a standard deviation of 20mas is added to the RA and DEC measurements to reflect more realistic astrometric uncertainties.
+
+#Short videos demonstrating the extraction of orbital solutions from _Find_Orb_ using MPC-compliant .obs files generated in this work are provided below. 
+--> Single-night observations: https://youtu.be/2xSQt7K2Ris
+For each of the 12 asteroids, the corresponding .obs file is loaded into Find_Orb. Because the observations span a short arc, perturbations from the planets, Moon, and Sun are disabled using the “All Perturbations” option, as their effects are negligible over this timescale. Initial orbits are computed using the 'Gauss' orbit determination method option, followed by 'Full', a least-squares fitting option to estimate uncertainties.
+
+--> Multi-night observations: https://youtu.be/DMwCI7UAnX8
+For each of the 10 asteroids observed over a five-day arc with three observations per night, perturbations from the Sun and Moon are included in the dynamical model. These perturbations are necessary for accurately modeling asteroids with heliocentric distances less than or equal to 0.2 au. _Find_Orb_ automatically computes these perturbations. 
 
 **Figure 9, Table 4:** 
 Using _Find_Orb_, among the 20 asteroids discussed in Section 2.3, the orbital determination of the asteroids is computed for two observational cases: Observations with diversity and observations without diversity. The ratio of the uncertainties in the semi-major axis for both cases is done for nine asteroids against their distance dependence from Earth. The dataset in the folder to reproduce this image and table includes the astrometry inputted into _Find_Orb_ (the '(asteroid name).obs' file), code, and a pdf containing screenshots of the orbital data from _Find_Orb_ for each of the nine asteroids for both the cases.
