@@ -48,10 +48,10 @@ Comparison of topocentric parallax distance measurements for multiple asteroids,
 For each of the 12 asteroids, the corresponding .obs file is loaded into Find_Orb. Because the observations span a short arc, perturbations from the planets, Moon, and Sun are disabled using the “All Perturbations” option, as their effects are negligible over this timescale. Initial orbits are computed using the 'Gauss' orbit determination method option, followed by 'Full', a least-squares fitting option to estimate uncertainties.
 
 (b) Multi-night observations: https://youtu.be/DMwCI7UAnX8
-For each of the 10 asteroids observed over a five-day arc with three observations per night, perturbations from the Sun and Moon are included in the dynamical model. These perturbations are necessary for accurately modeling asteroids with heliocentric distances less than or equal to 0.2 au. _Find_Orb_ automatically computes these perturbations. 
+For each of the 10 asteroids, the corresponding .obs file is loaded into Find_Orb. The observations span a five-day arc with three observations per night, and perturbations from the Sun and Moon are only included in the dynamical model for asteroids that are less than or equal to 0.2 au from the observer, which _Find_Orb_ automatically computes. 
 
 **Figure 9, Table 4:** 
-Using _Find_Orb_, among the 20 asteroids discussed in Section 2.3, the orbital determination of the asteroids is computed for two observational cases: Observations with diversity and observations without diversity. The ratio of the uncertainties in the semi-major axis for both cases is done for nine asteroids against their distance dependence from Earth. The dataset in the folder to reproduce this image and table includes the astrometry inputted into _Find_Orb_ (the '(asteroid name).obs' file), code, and a pdf containing screenshots of the orbital data from _Find_Orb_ for each of the nine asteroids for both the cases.
+Using _Find_Orb_, nine asteroids discussed in Section 2.3 have orbital determination computed for two observational cases: Observations with diversity and observations without diversity. The ratio of the uncertainties in the semi-major axis for both cases is compared against their distance dependence from Earth. The folder contains the input file for Find_Orb, which will compute the orbital determinations. The file is named as '(asteroid name).obs', and the orbital data for each asteroid is preserved in a .pdf file for both cases.
 
 **Figure 10, Table 5:** 
 Fractional distance uncertainty and script for multi-survey comparison.
