@@ -15,7 +15,7 @@ The repository is organized by figure number, and each folder contains:
 All synthetic data were obtained from the NASA JPL Horizons system (hereafter _Horizons_): https://ssd.jpl.nasa.gov/horizons/. 
 Real-time data were taken with the Panchromatic Robotic Optical Monitoring and Polarimetry Telescopes (PROMPT) on Cerro Tololo in Chile (Reichart et al. 2005) during the observations described in the manuscript.
 
-**Licenseg**: This repository is released under the MIT License, allowing reuse with attribution.
+**License**: This repository is released under the MIT License, allowing reuse with attribution.
 
 A tagged version of this repository corresponding to the final, post–peer-review version of the manuscript is archived in Zenodo, and includes a DOI for citation, which is also included in the manuscript.
 
