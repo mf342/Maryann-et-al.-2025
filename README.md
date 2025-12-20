@@ -1,6 +1,8 @@
 ***Measuring the Distances to Asteroids from One Observatory in One Night with Upcoming All-Sky Telescopes (Maryann et al. 2025)***
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-This repository contains all code and datasets used to generate the figures and tables in the above paper. In total, the paper includes 10 figures and 5 tables.
+This repository contains all code and datasets used to generate the figures and tables in the above paper. In total, the paper includes 10 figures and 5 tables. 
+
+**Archived at Zenodo:** https://doi.org/10.5281/zenodo.17993785
 
 The repository is organized by figure number, and each folder contains:
 1) the synthetic or real-time datasets used in the manuscript,
@@ -9,11 +11,11 @@ The repository is organized by figure number, and each folder contains:
 
 (_To reproduce any image or table in the paper, please download all the files in the folders, and edit the path where the input files are located on your device/cloud. When this is done, and you hit run, the entire code should complete the final image._)
    
-Data Sources: 
+**Data Sources:** 
 All synthetic data were obtained from the NASA JPL Horizons system (hereafter _Horizons_): https://ssd.jpl.nasa.gov/horizons/. 
 Real-time data were taken with the Panchromatic Robotic Optical Monitoring and Polarimetry Telescopes (PROMPT) on Cerro Tololo in Chile (Reichart et al. 2005) during the observations described in the manuscript.
 
-Licensing: This repository is released under the MIT License, allowing reuse with attribution.
+**Licenseg**: This repository is released under the MIT License, allowing reuse with attribution.
 
 A tagged version of this repository corresponding to the final, post–peer-review version of the manuscript is archived in Zenodo, and includes a DOI for citation, which is also included in the manuscript.
 
